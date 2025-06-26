@@ -26,7 +26,7 @@ In particular, it:
 
 The program implements the following:
 
-- Topological sorting using **Kahn’s algorithm** (in-degree based BFS)
+- Topological sorting 
 - For each node `v`, the number of paths ending at `v` is computed by:
   - `dp[v] = dp[v] + dp[u]` for every edge `u → v`
 - Initialization: each node starts with `dp[v] = 1` (the path consisting of itself)
@@ -71,4 +71,53 @@ B: 2
 C: 3
 D: 6
 ```
+
+# Question 2
+
+# Even Red Cells Coloring – Dynamic Programming Solution
+
+## 📘 Problem Description
+
+Given an array of size `n`, each cell can be colored in one of three colors: **Red**, **Blue**, or **Green**.  
+The task is to count how many different ways we can color the array such that the number of **Red-colored** cells is **even**.
+
+---
+
+## ✅ Section A – Recursive Formula
+
+## Output: 
+```
+======== Section A ==========
+T(0) = 1
+T(1) = 2
+T(2) = 5
+T(3) = 14
+T(4) = 41
+T(5) = 122
+T(6) = 365
+T(7) = 1094
+T(8) = 3281
+T(9) = 9842
+T(10) = 29525
+======== Section B ==========
+T(0) = 1
+T(1) = 2
+T(2) = 5
+T(3) = 14
+T(4) = 41
+T(5) = 122
+T(6) = 365
+T(7) = 1094
+T(8) = 3281
+T(9) = 9842
+T(10) = 29525
+Total Cost Section B: O(N)
+
+```
+
+
+
+
+
+
 
