@@ -83,7 +83,7 @@ The task is to count how many different ways we can color the array such that th
 
 ---
 
-## ✅ Section A – Recursive Formula
+## ✅ Section A + B – Recursive Formula
 
 ## Output: 
 ```
